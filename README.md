@@ -12,8 +12,8 @@ Ce repo contient une solution complète pour la classification de texte en utili
 - `bert_classification.py` contient tout le code nécessaire pour charger le dataset, le prétraiter, et entraîner un modèle de classification BERT basé sur les résumés. Un fichier nommé `model_ds_netflix.pth` sera généré à la fin de l'éxécution de ce script
 - `demo.py` permet de lancer une interface utilisateur Gradio qui facilite l'interaction avec le modèle précédemment entraîné et sauvegardé.
 
-`![Gradio](images/gradio.JPG)`
+![Gradio](images/gradio.JPG)
 
 - `api.py` met en place une API FastAPI qui permet d'interagir avec notre modèle via des requêtes HTTP, notamment une requête POST qui, à qui donné un texte, une prédiction du modèle est renvoyée.
 
-`![Fast API](images/fastapi.JPG)`
+![Fast API](images/fastapi.JPG)
